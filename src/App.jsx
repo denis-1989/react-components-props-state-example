@@ -1,6 +1,7 @@
 import './App.css';
 import ExampleComponents from './ExampleComponents';
 import ExampleProps from './ExampleProps';
+import ExampleStateCounter from './ExampleStateCounter';
 
 export default function App() {
   return (
@@ -18,6 +19,8 @@ export default function App() {
         age={25}
         address={{ street: 'bcd', zipcode: '4321' }}
       />
+      <h1>Example: useState</h1>
+      <ExampleStateCounter />
     </div>
   );
 }
