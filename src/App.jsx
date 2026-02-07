@@ -2,6 +2,7 @@ import './App.css';
 import ExampleComponents from './ExampleComponents';
 import ExampleProps from './ExampleProps';
 import ExampleStateCounter from './ExampleStateCounter';
+import ExampleStateEmail from './ExampleStateEmail';
 
 export default function App() {
   return (
@@ -21,6 +22,8 @@ export default function App() {
       />
       <h1>Example: useState</h1>
       <ExampleStateCounter />
+      <h1>Example: useState with email</h1>
+      <ExampleStateEmail />
     </div>
   );
 }
