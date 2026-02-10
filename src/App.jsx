@@ -1,5 +1,6 @@
 import './App.css';
 import ExampleComponents from './ExampleComponents';
+import ExampleMappingOverArrays from './ExampleMapingOverArrays';
 import ExampleProps from './ExampleProps';
 import ExampleStateCounter from './ExampleStateCounter';
 import ExampleStateEmail from './ExampleStateEmail';
@@ -24,6 +25,8 @@ export default function App() {
       <ExampleStateCounter />
       <h1>Example: useState with email</h1>
       <ExampleStateEmail />
+      <h1>Example: Mapping Over Arrays</h1>
+      <ExampleMappingOverArrays />
     </div>
   );
 }
