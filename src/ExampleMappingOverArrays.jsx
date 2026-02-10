@@ -19,7 +19,7 @@ export default function ExampleMappingOverArrays() {
       {teamMembers.map((teamMember) => {
         return (
           <div key={`teamMember-${teamMember.id}`}>
-            <div>{teamMember.name}</div>;
+            <div>{teamMember.name}</div>
           </div>
         );
       })}

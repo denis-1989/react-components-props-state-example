@@ -1,6 +1,7 @@
 import './App.css';
 import ExampleComponents from './ExampleComponents';
-import ExampleMappingOverArrays from './ExampleMapingOverArrays';
+import ExampleConditionalRendering from './ExampleConditionalRendering';
+import ExampleMappingOverArrays from './ExampleMappingOverArrays';
 import ExampleProps from './ExampleProps';
 import ExampleStateCounter from './ExampleStateCounter';
 import ExampleStateEmail from './ExampleStateEmail';
@@ -27,6 +28,12 @@ export default function App() {
       <ExampleStateEmail />
       <h1>Example: Mapping Over Arrays</h1>
       <ExampleMappingOverArrays />
+      <h1>Example: Conditional Rendering</h1>
+      <ExampleConditionalRendering />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   );
 }
