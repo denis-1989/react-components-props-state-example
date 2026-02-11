@@ -2,6 +2,7 @@ import './App.css';
 import ExampleComponents from './ExampleComponents';
 import ExampleConditionalRendering from './ExampleConditionalRendering';
 import ExampleMappingOverArrays from './ExampleMappingOverArrays';
+import ExamplePropDestructuring from './ExamplePropDestructuring';
 import ExampleProps from './ExampleProps';
 import ExampleStateCounter from './ExampleStateCounter';
 import ExampleStateEmail from './ExampleStateEmail';
@@ -34,6 +35,8 @@ export default function App() {
       <br />
       <br />
       <br />
+      <h1>Example: Prop Destructuring</h1>
+      <ExamplePropDestructuring />
     </div>
   );
 }
